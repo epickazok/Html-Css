@@ -1,0 +1,50 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    color: green;
+}
+
+h1 a {
+    color: red;
+}
+
+h2 a:hover {
+    color: orange;
+}
+
+.chessboard {
+    border-radius: 30px;
+}
+
+
+.chessboard:hover {
+    box-shadow: 9px 9px 19px 19px rgb(31, 31, 31);
+}
+
+.mate-in-one {
+    box-shadow: 5px 10px orange;
+}
+
+.mate-in-two {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: 5px 20px rgb(35, 35, 48);
+}
+
+li:hover {
+    color: orange;
+}
+
+ul li a.bullet-point {
+    color: red;
+}
+
+ol li a.bullet-point {
+    color: pink;
+    text-decoration: none;
+}
